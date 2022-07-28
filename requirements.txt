@@ -5,3 +5,6 @@ gunicorn
 pandas
 joblib
 numpy
+flask_mysqldb
+mysql
+mysqldb.cursors
