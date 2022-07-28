@@ -2,6 +2,6 @@ flask
 sklearn 
 uvicorn
 gunicorn
-panda
+pandas
 joblib
 numpy
