@@ -1,1 +1,1 @@
-web: gunicorn kmeansCoba:app
+web: gunicorn app:app
