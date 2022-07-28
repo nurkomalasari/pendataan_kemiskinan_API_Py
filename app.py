@@ -33,6 +33,11 @@ def preprocess(data: pd.DataFrame):
     return data_scale
 
 
+@app.route('/')
+@app.route('/index')
+def root():
+    return {"message": "Hello World"}
+
 @app.route('/silhoutte')
 def silhoutte():
     response = {}
